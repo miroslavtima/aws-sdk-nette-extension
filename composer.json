@@ -1,0 +1,30 @@
+{
+	"name": "miroslavtima/aws-sdk-nette-extension",
+	"type": "library",
+	"description": "A Nette extension for the AWS SDK for PHP https://aws.amazon.com/sdk-for-php/",
+	"keywords": ["aws", "sdk", "amazon", "php", "nette", "extension", "di"],
+	"homepage": "https://aws.amazon.com/sdk-for-php/",
+	"license": ["MIT"],
+	"support": {
+		"issues": "https://github.com/miroslavtima/aws-sdk-nette-extension/issues"
+	},
+	"authors": [
+		{
+			"name": "Miroslav Tima",
+			"homepage": "https://github.com/miroslavtima/aws-sdk-nette-extension"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"MT\\AwsSdkNetteExtension\\": "src/"
+		}
+	},
+	"require": {
+		"nette/di"        : "^2.3|^2.4|^3.0",
+		"aws/aws-sdk-php" : "~3.0"
+	},
+	"require-dev": {
+		"nette/tester"    : "~1.6.1",
+		"mockery/mockery" : "~0.9"
+	}
+}
