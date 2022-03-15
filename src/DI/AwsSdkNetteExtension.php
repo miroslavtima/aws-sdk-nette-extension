@@ -16,6 +16,8 @@ class AwsSdkNetteExtension extends Nette\DI\CompilerExtension
 	private $defaults = [
 		'region' => NULL,
 		'version' => 'latest',
+		'endpoint' => NULL,
+		'use_path_style_endpoint' => false,
 		'credentials' => [
 			'key' => NULL,
 			'secret' => NULL
